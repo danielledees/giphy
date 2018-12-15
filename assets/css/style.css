@@ -1,0 +1,33 @@
+body {
+    background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
+    color: rgb(91, 7, 124);
+    font-family: 'B612 Mono', monospace;
+  
+}
+
+#topics-array {
+  
+
+}
+
+.topic-button {
+    height: 50px;
+    width: 150px;
+    background-color: rgb(91, 7, 124);
+    color: rgba(219, 195, 195, 0.753);
+    border-color: black;
+    
+}
+
+#add-topic {
+    font-size: 40px;
+    background-color: 
+ 
+   
+
+}
+
+#topic-input {
+    background-color: limegreen;
+   
+}

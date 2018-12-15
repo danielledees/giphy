@@ -4,7 +4,6 @@
 				
 // my API Key xQFr9FVDliZZP58r6lj2oZ94REMLxL68
 
-
 //create an array of topics
 //run a for loop thru the array
 //generate a button for each topic
@@ -34,9 +33,6 @@ function renderButtons() {
 
 renderButtons()
 
-
-
-
 console.log(topics);
 
 //when button is clicked pulls from api
@@ -63,7 +59,7 @@ $(document).on("click", '.topic-button', function() {
        var matches = response.data;
        $('#display-gifs').empty();
        //runs loop thru the data repsonses and appends images to display-gifs div with rating
-       //credit to my tutor for showing me template literal below
+       //credit to my tutor for teaching me template literal below
         for (var i = 0; i <matches.length; i++) {
             $("#display-gifs").append(`<img class="gifImage" data-check="false" data-still=${matches[i].images.original_still.url} data-original=${matches[i].images.original.url} src=${matches[i].images.original_still.url}  /> <p>Rating : ${matches[i].rating}</p>`);
 
@@ -73,7 +69,7 @@ $(document).on("click", '.topic-button', function() {
   
 })
 
-//when gif is clicked on checks to see if it's still or animated and toggles between the two image urls
+//when gif is clicked on check to see if it's still or animated and toggles between the two image urls
 $(document).on("click", ".gifImage", function(event) {
     event.preventDefault();
     if ($(this).attr("data-check") == "false") {

@@ -46,7 +46,7 @@ $(document).on("click", '.topic-button', function() {
    var animalBtn = $(this).attr("data-name") ;
    console.log(animalBtn, " this should be the search term");
 
-   var queryURL =  "http://api.giphy.com/v1/gifs/search?q=" + animalBtn + "&api_key=xQFr9FVDliZZP58r6lj2oZ94REMLxL68&limit=15";
+   var queryURL =  "https://api.giphy.com/v1/gifs/search?q=" + animalBtn + "&api_key=xQFr9FVDliZZP58r6lj2oZ94REMLxL68&limit=10";
   
    
    console.log(queryURL);

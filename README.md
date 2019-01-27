@@ -5,3 +5,5 @@ To add more buttons type in the Add an Animal form and submit to add any topic y
 
 Click on gif to animate and click again to pause
 
+Link to site: https://danielledees.github.io/giphy/ 
+
